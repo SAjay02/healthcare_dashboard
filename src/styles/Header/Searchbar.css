@@ -1,0 +1,39 @@
+.searchbar_container
+{
+    height: 35px;
+    width: 400px;
+    margin-left: 00px;    
+    border: 1px solid grey;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.remainder_container
+{
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-left: -140px;  
+}
+
+.search_icon
+{
+    margin-Left: 15px;
+}
+
+.remainder_icon
+{
+    margin-Left: 0px;
+}
+
+.searchbar_content
+{
+    color: grey;
+    margin-left: 10px;
+    font-size: small;
+}
