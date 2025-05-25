@@ -1,6 +1,164 @@
 .activity_container
 {
-    width: 200%;
-    height: 100px;
-    background-color: red;
+    width: 92%;
+    height: 160px;
+    background-color:  rgba(249, 249, 250, 0.879);
+    border-radius: 12px;
+}
+
+.activity_top_contianer
+{
+    display: flex;
+    margin-top: 5px;
+    justify-content: space-between;
+}
+
+.activity_top_contianer > h5
+{
+    margin-left: 10px;
+}
+
+.activity_top_contianer > h6
+{
+    color: lightgray;
+    margin-right: 10px;
+}
+
+.activity_middle_contianer
+{
+    display: flex;
+    margin-left: 10px;
+}
+
+.first_bar
+{
+    height: 70px;
+    width: 3px;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+.second_bar
+{
+    height: 35px;
+    width: 3px;
+    background-color: #2ed1de;
+    border-radius: 5px;
+    margin-left: 7px;
+    margin-top: 15px;
+}
+
+.third_bar
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.third_bar_first
+{
+    height: 15px;
+    width: 3px;
+    background-color: lightgrey;
+    border-radius: 5px;
+    margin-left: 7px;
+    margin-top: 25px;
+}
+
+.third_bar_second
+{
+    height: 15px;
+    width: 3px;
+    background-color: lightgrey;
+    border-radius: 5px;
+    margin-left: 7px;
+    margin-top: 5px;
+}
+
+.fourth_bar
+{
+    height: 20px;
+    width: 3px;
+    background-color: lightgray;
+    border-radius: 5px;
+    margin-left: 7px;
+    margin-top: 50px;
+}
+
+.fifth_bar
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.fifth_bar_first
+{
+    height: 33px;
+    width: 3px;
+    background-color: lightgray;
+    border-radius: 5px;
+    margin-left: 7px;
+    margin-bottom: 4px;
+}
+
+.fifth_bar_second
+{
+    height: 33px;
+    width: 3px;
+    background-color: lightgray;
+    border-radius: 5px;
+    margin-left: 7px;
+}
+
+.sixth_bar
+{
+    height: 35px;
+    width: 3px;
+    background-color: #2ed1de;
+    border-radius: 5px;
+    margin-left: 7px;
+    margin-top: 15px;
+}
+
+.seventh_bar
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.seventh_bar_first
+{
+    height: 15px;
+    width: 3px;
+    background-color: lightgrey;
+    border-radius: 5px;
+    margin-left: 7px;
+    margin-top: 25px;
+}
+
+.seventh_bar_second
+{
+    height: 15px;
+    width: 3px;
+    background-color: lightgrey;
+    border-radius: 5px;
+    margin-left: 7px;
+    margin-top: 5px;
+}
+
+.eight_bar
+{
+    height: 20px;
+    width: 3px;
+    background-color: lightgray ;
+    border-radius: 5px;
+    margin-left: 7px;
+    margin-top: 50px;
+}
+
+.activity_last_container
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: -15px;
+    color: gray;
 }
