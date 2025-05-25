@@ -1,7 +1,7 @@
 import React from 'react'
 import "../../styles/Sidebar/Sidebar.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faDashboard,faHistory,faCalendar,faChartSimple,faExpandAlt,faPerson,faPhone,faGear } from '@fortawesome/free-solid-svg-icons'
+import { faDashboard,faHistory,faCalendar,faChartSimple,faExpandAlt,faPhone,faGear,faComment } from '@fortawesome/free-solid-svg-icons'
 const Sidebar = () => {
   return (
     <div>
@@ -14,7 +14,7 @@ const Sidebar = () => {
             <h5 style={{color:"grey"}} class="project"><span class="project_icon"><FontAwesomeIcon className='search_icon' icon={faExpandAlt} /></span>Appointments</h5>
             <h5 style={{color:"grey"}} class="project"><span class="project_icon"><FontAwesomeIcon className='search_icon' icon={faChartSimple} /></span>Statistics</h5>
             <h5 class="general">Tools</h5>
-            <h5 style={{color:"grey"}} class="project"><span class="project_icon"><FontAwesomeIcon className='search_icon' icon={faPerson} /></span>Chat</h5>
+            <h5 style={{color:"grey"}} class="project"><span class="project_icon"><FontAwesomeIcon className='search_icon' icon={faComment} /></span>Chat</h5>
             <h5 style={{color:"grey"}} class="project"><span class="project_icon"><FontAwesomeIcon className='search_icon' icon={faPhone} /></span>Support</h5>
         </div>
         <div >

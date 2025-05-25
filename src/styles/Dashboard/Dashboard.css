@@ -1,0 +1,121 @@
+.dashboard_container
+{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 200%;
+    margin-left: 100px;
+    /* background-color: red; */
+}
+
+.dashboard_top_cont
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dashboard_middle
+{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: red; */
+}
+
+.anatomy_container
+{
+    height: 250px;
+    width: 220px;
+    background-color:  rgba(249, 249, 250, 0.879);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+.anatomy_image
+{
+    height: 240px;
+    width: auto;
+}
+
+.health_container
+{
+    /* height: 200px; */
+    width: 130px;
+    /* background-color:  rgba(249, 249, 250, 0.879); */
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.single_healthstatus
+{
+    height: 90px;
+    width: 120px;
+    background-color: rgba(249, 249, 250, 0.879);;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.health_icon
+{
+    font-size: 20px;
+    color: grey;
+}
+
+.health_name
+{
+    margin-left: 10px;
+}
+
+.health_top_container
+{
+    display: flex;
+    align-items: center;
+    /* background-color: red; */
+    /* height: 90px;
+    width: 130px; */
+}
+
+.health_middle_container
+{
+    margin-top: -40px;
+}
+
+.health_middle_container > h6
+{
+    font-size: x-small;
+    color:lightgray;
+}
+
+.health_last_container
+{
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+}
+
+.health_show
+{
+    height: 6px;
+    width: 50px;
+    /* background-color: red; */
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.health_notshow
+{
+    height: 6px;
+    width: 20px;    
+    background-color: lightgray;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
