@@ -8,7 +8,42 @@
     display: flex;
     align-items: center;
 }
-
+@media screen and (max-width:1204px) {
+    .searchbar_container
+    {
+        height: 35px;
+        width: 400px;
+        margin-left: 100px;    
+        border: 1px solid grey;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+    }
+}
+@media screen and (max-width:1161px) {
+    .searchbar_container
+    {
+        height: 35px;
+        width: 400px;
+        margin-left: 140px;    
+        border: 1px solid grey;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+    }
+}
+@media screen and (max-width:1113px) {
+    .searchbar_container
+    {
+        height: 35px;
+        width: 800px;
+        margin-left: 100px;    
+        border: 1px solid grey;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+    }
+}
 .remainder_container
 {
     height: 35px;
@@ -20,7 +55,84 @@
     border-radius: 5px;
     margin-left: -120px;  
 }
-
+@media screen and (max-width:1441px) {
+    .remainder_container
+    {
+        height: 35px;
+        width: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid grey;
+        border-radius: 5px;
+        margin-left: -130px;  
+    }
+}
+@media screen and (max-width:1270px) {
+    .remainder_container
+    {
+        height: 35px;
+        width: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid grey;
+        border-radius: 5px;
+        margin-left: -70px;  
+    }
+}
+@media screen and (max-width:1204px) {
+    .remainder_container
+    {
+        height: 35px;
+        width: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid grey;
+        border-radius: 5px;
+        margin-left: 0px;  
+    }
+}
+@media screen and (max-width:1171px) {
+    .remainder_container
+    {
+        height: 35px;
+        width: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid grey;
+        border-radius: 5px;
+        margin-left: 0px;  
+    }
+}
+@media screen and (max-width:1113px) {
+    .remainder_container
+    {
+        height: 35px;
+        width: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid grey;
+        border-radius: 5px;
+        margin-left: 10px;  
+    }
+}
+@media screen and (max-width:1113px) {
+    .remainder_container
+    {
+        height: 35px;
+        width: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid grey;
+        border-radius: 5px;
+        margin-left: 10px;  
+    }
+}
 .search_icon
 {
     margin-Left: 15px;

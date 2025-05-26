@@ -10,7 +10,7 @@ const appointmentData = [
         icon_color:"white"
     },
     {
-        purpose:"Physiotherapy Appointment",
+        purpose:"Physiotherapy",
         time:"11.00-12.00",
         doctor:"Dr.Kevin Djones",
         color:"#051a78",

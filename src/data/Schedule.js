@@ -1,7 +1,7 @@
 import {faSyringe, faEye,faHeart,faHexagonNodes } from '@fortawesome/free-solid-svg-icons'
 const scheduledData = [
     {
-        purpose:"Health checkup complete",
+        purpose:"Full checkup",
         time:"11.00 AM",
         name:faSyringe
     },

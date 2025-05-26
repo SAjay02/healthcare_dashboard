@@ -3,7 +3,20 @@
     display: flex;
     margin-Left: 250px;
 }
-
+@media screen and (max-width:1270px) {
+    .profile_container
+    {
+        display: flex;
+        margin-Left: 300px;
+    }
+}
+@media screen and (max-width:1441px) {
+    .profile_container
+    {
+        display: flex;
+        margin-Left: 380px;
+    }
+}
 .profile
 {
     height: 30px;

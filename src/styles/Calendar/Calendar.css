@@ -3,13 +3,110 @@
     display: flex;
     flex-direction: column;
     height: 87vh;
-    width: 60%;
+    width: 65%;
     margin-left: 350px;
     background-color: rgba(249, 249, 250, 0.879);
     margin-top: -20px;
     border-radius: 10px;
 }
 
+/* @media screen and (max-width:1441px) {
+    .calendar_container
+    {
+        display: flex;
+        flex-direction: column;
+        height: 87vh;
+        width: 83%;
+        margin-left: 350px;
+        background-color: rgba(249, 249, 250, 0.879);
+        margin-top: -20px;
+        border-radius: 10px;
+    }
+} */
+
+@media screen and (max-width:1270px) {
+    .calendar_container
+    {
+        display: flex;
+        flex-direction: column;
+        height: 87vh;
+        width: 55%;
+        margin-left: 350px;
+        background-color: rgba(249, 249, 250, 0.879);
+        margin-top: -20px;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width:1204px) {
+    .calendar_container
+    {
+        display: flex;
+        flex-direction: column;
+        height: 87vh;
+        width: 55%;
+        margin-left: 350px;
+        background-color: rgba(249, 249, 250, 0.879);
+        margin-top: -20px;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width:1171px) {
+    .calendar_container
+    {
+        display: flex;
+        flex-direction: column;
+        height: 87vh;
+        width: 50%;
+        margin-left: 340px;
+        background-color: rgba(249, 249, 250, 0.879);
+        margin-top: -20px;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width:1133px) {
+    .calendar_container
+    {
+        display: flex;
+        flex-direction: column;
+        height: 87vh;
+        width: 55%;
+        margin-left: 300px;
+        background-color: rgba(249, 249, 250, 0.879);
+        margin-top: -20px;
+        border-radius: 10px;
+    }
+} 
+
+@media screen and (max-width:1091px) {
+    .calendar_container
+    {
+        display: flex;
+        flex-direction: column;
+        height: 87vh;
+        width: 50%;
+        margin-left: 300px;
+        background-color: rgba(249, 249, 250, 0.879);
+        margin-top: -20px;
+        border-radius: 10px;
+    }
+} 
+
+@media screen and (max-width:1032px) {
+    .calendar_container
+    {
+        display: flex;
+        flex-direction: column;
+        height: 87vh;
+        width: 47%;
+        margin-left: 300px;
+        background-color: rgba(249, 249, 250, 0.879);
+        margin-top: -20px;
+        border-radius: 10px;
+    }
+} 
 .calendar_top_container
 {
     display: flex;
