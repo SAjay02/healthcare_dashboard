@@ -4,6 +4,7 @@ import {faArrowRight,faArrowLeft } from '@fortawesome/free-solid-svg-icons'
 import "../../../styles/Calendar/Calendar.css"
 import { calendarData } from '../../../data/Calendar'
 import Appointment from '../../SimpleAppointmentCard/Appointment'
+import Schedule from '../UpcomingSchedule/Schedule'
 
 const Calendar = () => {
   return (
@@ -20,7 +21,7 @@ const Calendar = () => {
                 calendarData.map((item)=>
                 {
                     return(
-                        <div className=''>                        
+                        <div className='day_table_container'>                        
                             <h6 style={{color:"gray"}}>{item.day}</h6>
                             <h4 style={{color:"#051a78"}} className='date_container'>{item.date}</h4>
                             <h6 style={{color:"gray"}} className='time_container'>{item.time1}</h6>
@@ -39,6 +40,7 @@ const Calendar = () => {
             
         </div>
         <Appointment/>
+        <Schedule/>
     </div>
   )
 }

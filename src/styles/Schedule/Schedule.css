@@ -1,4 +1,4 @@
-.appointment_container
+.schedule_container
 {
     display: flex;
     justify-content: flex-start;
@@ -6,11 +6,11 @@
     margin-left: 25px;
 }
 
-.dentist_container
+.schedule_content
 {
     height: 70px;
     /* width: 130px; */
-    padding: 5px 10px;
+    /* padding: 5px 10px; */
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -18,11 +18,11 @@
     justify-content: center;
     white-space: nowrap;  
     width: fit-content;  
+    margin-top: -10px;
     max-width: 100%;
-    margin-bottom: 5px;
 }
 
-.dentist_top_container
+.schedule_top_container
 {
     display: flex;
     justify-content: space-between;
@@ -31,7 +31,7 @@
     margin-top: -25px;
 }
 
-.dentist_container > span
+.schedule_content > span
 {
     font-size: 8px;
     margin-left: 15px;
@@ -40,9 +40,26 @@
 .tooth_icon
 {
     margin-left: 15px;
+    margin-right: 10px;
 }
 
-.appointment_date
+.appointment_time
 {
     margin-top: -20px;
 }
+
+.schedule_title
+{
+    color: #051a78;
+    font-weight: 600;
+    margin-left: 25px;
+}
+
+.schedule_day
+{
+    margin-left: 25px;
+    color: grey;
+    margin-top: 10px;
+}
+
+

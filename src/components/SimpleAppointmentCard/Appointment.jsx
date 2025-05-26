@@ -15,7 +15,7 @@ const Appointment = () => {
                         <div className='dentist_container' style={{backgroundColor:item.bg_color,color:item.color}}>
                             <div className='dentist_top_container'>
                                 <h6>{item.purpose}</h6>
-                                <FontAwesomeIcon className='tooth_icon' style={{color:"white"}} icon={item.name} />
+                                <FontAwesomeIcon className='tooth_icon' style={{color:item.icon_color}} icon={item.name} />
                             </div>
                             <span className='appointment_date'>{item.time}</span>
                             <span >{item.doctor}</span>

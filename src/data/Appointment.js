@@ -6,15 +6,17 @@ const appointmentData = [
         doctor:"Dr.Cameron Willaimson",
         color:"white",
         bg_color:"#390ead",
-        name:faTooth
+        name:faTooth,
+        icon_color:"white"
     },
     {
         purpose:"Physiotherapy Appointment",
         time:"11.00-12.00",
         doctor:"Dr.Kevin Djones",
-        color:"black",
+        color:"#051a78",
         bg_color:"#e0dcfa",
-        name:faHand
+        name:faHand,
+        icon_color:"black"
     }
 ]
 

@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     height: 87vh;
-    width: 65%;
+    width: 60%;
     margin-left: 350px;
     background-color: rgba(249, 249, 250, 0.879);
     margin-top: -20px;
@@ -51,5 +51,10 @@
 
 .time_container
 {
-    margin-top: -10px;
+    margin-top: -13px;
+}
+
+.day_table_container > h6
+{
+    font-size: xx-small;
 }
