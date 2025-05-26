@@ -1,0 +1,45 @@
+.appointment_container
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.dentist_container
+{
+    height: 70px;
+    /* width: 130px; */
+    padding: 5px 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    white-space: nowrap;  
+    width: fit-content;  
+    /* max-width: 100%; */
+}
+
+.dentist_top_container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 15px;
+    margin-top: -25px;
+}
+
+.dentist_container > span
+{
+    font-size: 8px;
+    margin-left: 15px;
+}
+
+.tooth_icon
+{
+    margin-left: 15px;
+}
+
+.appointment_date
+{
+    margin-top: -20px;
+}

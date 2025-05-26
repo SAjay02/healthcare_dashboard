@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faArrowRight,faArrowLeft } from '@fortawesome/free-solid-svg-icons'
 import "../../../styles/Calendar/Calendar.css"
 import { calendarData } from '../../../data/Calendar'
+import Appointment from '../../SimpleAppointmentCard/Appointment'
 
 const Calendar = () => {
   return (
@@ -37,6 +38,7 @@ const Calendar = () => {
             }
             
         </div>
+        <Appointment/>
     </div>
   )
 }
