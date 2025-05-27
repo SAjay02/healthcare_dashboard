@@ -107,6 +107,46 @@
         border-radius: 10px;
     }
 } 
+
+@media screen and (max-width:770px) {
+    .calendar_container
+    {
+        display: flex;
+        flex-direction: column;
+        height: 87vh;
+        width: 70%;
+        margin-left: 200px;
+        background-color: rgba(249, 249, 250, 0.879);
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+} 
+@media screen and (max-width:700px) {
+    .calendar_container
+    {
+        display: flex;
+        flex-direction: column;
+        height: 87vh;
+        width: 90%;
+        margin-left: 130px;
+        background-color: rgba(249, 249, 250, 0.879);
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+} 
+@media screen and (max-width:600px) {
+    .calendar_container
+    {
+        display: flex;
+        flex-direction: column;
+        height: 87vh;
+        width: 90%;
+        margin-left: 100px;
+        background-color: rgba(249, 249, 250, 0.879);
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+} 
 .calendar_top_container
 {
     display: flex;
