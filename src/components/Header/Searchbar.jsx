@@ -1,4 +1,3 @@
-import React from 'react'
 import '../../styles/Header/Searchbar.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBell,faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'

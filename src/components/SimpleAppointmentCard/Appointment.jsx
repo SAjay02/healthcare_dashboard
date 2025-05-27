@@ -1,10 +1,7 @@
-import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTooth } from '@fortawesome/free-solid-svg-icons'
 import "../../styles/Appointment/Appointment.css"
-import { appointmentData} from "../../data/Appointment"
 
-const Appointment = () => {
+const Appointment = ({appointmentData=[{}]}) => {
   return (
     <div className='appointment_container'>
         {

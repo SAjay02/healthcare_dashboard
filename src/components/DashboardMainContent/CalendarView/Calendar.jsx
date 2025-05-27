@@ -1,8 +1,9 @@
-import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faArrowRight,faArrowLeft } from '@fortawesome/free-solid-svg-icons'
 import "../../../styles/Calendar/Calendar.css"
 import { calendarData } from '../../../data/Calendar'
+import {appointmentData} from "../../../data/Appointment"
+import {scheduledData,scheduledData2} from "../../../data/Schedule"
 import Appointment from '../../SimpleAppointmentCard/Appointment'
 import Schedule from '../UpcomingSchedule/Schedule'
 
@@ -39,8 +40,8 @@ const Calendar = () => {
             }
             
         </div>
-        <Appointment/>
-        <Schedule/>
+        <Appointment appointmentData={appointmentData}/>
+        <Schedule scheduledData={scheduledData} scheduledData2={scheduledData2}/>
     </div>
   )
 }

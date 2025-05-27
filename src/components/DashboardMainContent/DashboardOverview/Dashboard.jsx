@@ -1,11 +1,11 @@
-import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowDown } from '@fortawesome/free-solid-svg-icons'
 import "../../../styles/Dashboard/Dashboard.css"
-import anatomy from "../../../assests/Anatomy.png"
 import AnatomySection from './AnatomySection'
 import HealthStatus from './HealthStatus'
 import { Activity } from '../ActivityFeed/Activity'
+import {activityData} from "../../../data/ActivityData"
+import {healthData} from "../../../data/HealthStatusData"
 const Dashboard = () => {
   return (
     <div className="dashboard_container">
@@ -15,10 +15,10 @@ const Dashboard = () => {
         </div>
         <div className='dashboard_middle'>
             <div className='anatomy_container_col'><AnatomySection/></div>
-            <div className='health_container_col'><HealthStatus/></div>
+            <div className='health_container_col'><HealthStatus healthData={healthData}/></div>
         </div>
         <div>
-          <Activity/>
+          <Activity activityData={activityData}/>
         </div>
     </div>
   )

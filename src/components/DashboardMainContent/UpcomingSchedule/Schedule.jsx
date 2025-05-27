@@ -1,8 +1,6 @@
-import React from 'react'
 import "../../../styles/Schedule/Schedule.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {scheduledData,scheduledData2} from "../../../data/Schedule"
-const Schedule = () => {
+const Schedule = ({scheduledData=[{}],scheduledData2=[{}]}) => {
   return (
     <div>
         <span className='schedule_title'>The Upcoming Schedule</span>

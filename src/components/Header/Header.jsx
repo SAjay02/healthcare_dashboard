@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Profile from './Profile'
 import Searchbar from './Searchbar'
 import Title from './Title'
