@@ -16,3 +16,13 @@
         margin-left: 60px;
     }
 }
+
+@media screen and (max-width:450px) {
+    .title_container
+    {
+        margin-left: 10px;
+        margin-top: -50px;
+        position: absolute;
+        /* display: none; */
+    }
+}

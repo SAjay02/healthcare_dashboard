@@ -5,7 +5,130 @@
     background-color:  rgba(249, 249, 250, 0.879);
     border-radius: 12px;
 }
-
+@media screen and (max-width:500px) {
+    .activity_container
+    {
+        width: 90%;
+        height: 160px;
+        background-color:  rgba(249, 249, 250, 0.879);
+        /* background-color: red; */
+        border-radius: 12px;
+        margin-top: 20px;
+        /* margin-left: -20px; */
+        /* overflow-x: auto; */
+        white-space: nowrap;
+    }
+    .activity_bar_group >  div
+    {   
+        width: 4px;
+    }
+    .third_bar > div
+    {
+        width: 4px;
+        margin-left: 4px;
+    }
+    .fifth_bar > div
+    {
+        width: 4px;
+        margin-left: 4px;
+    }
+    .seventh_bar > div
+    {
+        width: 4px;
+        margin-left: 4px;
+    }
+} 
+@media screen and (max-width:450px) {
+    .activity_container
+    {
+        width: 80%;
+        height: 160px;
+        background-color:  rgba(249, 249, 250, 0.879);
+        border-radius: 12px;
+        margin-top: 20px;
+        margin-left:20px;
+    }
+    .activity_bar_group >  div
+    {   
+        width: 3px;
+    }
+    .third_bar > div
+    {
+        width: 3px;
+        margin-left: 3px;
+    }
+    .fifth_bar > div
+    {
+        width: 3px;
+        margin-left: 3px;
+    }
+    .seventh_bar > div
+    {
+        width: 3px;
+        margin-left: 3px;
+    }
+} 
+@media screen and (max-width:422px) {
+    .activity_container
+    {
+        width: 90%;
+        height: 160px;
+        background-color:  rgba(249, 249, 250, 0.879);
+        border-radius: 12px;
+        margin-top: 20px;
+        margin-left:20px;
+    }
+    .activity_bar_group >  div
+    {   
+        width: 3px;
+    }
+    .third_bar > div
+    {
+        width: 3px;
+        margin-left: 3px;
+    }
+    .fifth_bar > div
+    {
+        width: 3px;
+        margin-left: 3px;
+    }
+    .seventh_bar > div
+    {
+        width: 3px;
+        margin-left: 3px;
+    }
+}
+@media screen and (max-width:390px) {
+    .activity_container
+    {
+        width: 90%;
+        height: 160px;
+        background-color:  rgba(249, 249, 250, 0.879);
+        /* background-color: red; */
+        border-radius: 12px;
+        margin-top: 20px;
+        margin-left:0px;
+    }
+    .activity_bar_group >  div
+    {   
+        width: 3px;
+    }
+    .third_bar > div
+    {
+        width: 3px;
+        margin-left: 3px;
+    }
+    .fifth_bar > div
+    {
+        width: 3px;
+        margin-left: 3px;
+    }
+    .seventh_bar > div
+    {
+        width: 3px;
+        margin-left: 3px;
+    }
+}  
 .activity_top_contianer
 {
     display: flex;
@@ -30,12 +153,17 @@
     margin-left: 10px;
 }
 
+.activity_bar_group {
+  display: flex;
+}
+
 .first_bar
 {
     height: 70px;
     width: 3px;
     background-color: lightgray;
     border-radius: 5px;
+    margin-left: 7px;
 }
 
 .second_bar

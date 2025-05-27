@@ -13,7 +13,7 @@ export const Activity = () => {
           activityData.map((item)=>
           {
             return(
-              <div className='activity_middle_contianer'>
+              <div className='activity_bar_group'>
                <div style={{backgroundColor:item.firstBar}} className='first_bar'></div>
                 <div style={{backgroundColor:item.secondBar}} className='second_bar'></div>
                 <div className='third_bar'>

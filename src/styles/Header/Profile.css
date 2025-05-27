@@ -24,6 +24,13 @@
         margin-Left: 0px;
     }
 }
+@media screen and (max-width:450px) {
+    .profile_container
+    {
+        display: flex;
+        margin-top: 50px;
+    }
+}
 .profile
 {
     height: 30px;
