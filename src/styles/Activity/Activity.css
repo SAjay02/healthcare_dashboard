@@ -129,6 +129,68 @@
         margin-left: 3px;
     }
 }  
+@media screen and (max-width:350px) {
+    .activity_container
+    {
+        width: 87%;
+        height: 160px;
+        background-color:  rgba(249, 249, 250, 0.879);
+        /* background-color: red; */
+        border-radius: 12px;
+        margin-top: 20px;
+        margin-left:0px;
+    }
+    .activity_bar_group >  div
+    {   
+        width: 2.4px;
+    }
+    .third_bar > div
+    {
+        width: 2.4px;
+        margin-left: 3px;
+    }
+    .fifth_bar > div
+    {
+        width: 2.4px;
+        margin-left: 3px;
+    }
+    .seventh_bar > div
+    {
+        width: 2.4px;
+        margin-left: 3px;
+    }
+} 
+@media screen and (max-width:331px) {
+    .activity_container
+    {
+        width: 103%;
+        height: 160px;
+        background-color:  rgba(249, 249, 250, 0.879);
+        /* background-color: red; */
+        border-radius: 12px;
+        margin-top: 20px;
+        margin-left:0px;
+    }
+    .activity_bar_group >  div
+    {   
+        width: 2.4px;
+    }
+    .third_bar > div
+    {
+        width: 2.4px;
+        margin-left: 3px;
+    }
+    .fifth_bar > div
+    {
+        width: 2.4px;
+        margin-left: 3px;
+    }
+    .seventh_bar > div
+    {
+        width: 2.4px;
+        margin-left: 3px;
+    }
+} 
 .activity_top_contianer
 {
     display: flex;

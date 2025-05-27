@@ -104,6 +104,44 @@
         margin-top: -20px;
     }
 }
+@media screen and (max-width:382px) {
+    .dashboard_container
+    {
+        display: flex;
+        flex-direction: column;
+        height: 90vh;
+        width: 135%;
+        margin-left: 10px;
+        /* background-color: red; */
+        margin-top: -20px;
+    }
+    .health_container
+    {
+        /* background-color: red;     */
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width:331px) {
+    .dashboard_container
+    {
+        display: flex;
+        flex-direction: column;
+        height: 90vh;
+        width: 110%;
+        margin-left: 10px;
+        /* background-color: red; */
+        margin-top: -20px;
+    }
+    .health_container
+    {
+        /* background-color: red;     */
+        margin-top: 20px;
+    }
+    .dashboard_top_cont
+    {
+        margin-left:30px;
+    }
+}
 .dashboard_top_cont
 {
     display: flex;

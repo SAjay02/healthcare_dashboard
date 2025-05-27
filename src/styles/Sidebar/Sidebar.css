@@ -44,8 +44,9 @@
     position: fixed;
     top: 0;
     left: 0;
-    height: 95vh;
+    height: 100vh;
     width: 200px;
+    overflow-y: auto;
     transform: translateX(-100%);
     z-index: 999;
     background-color: white;
