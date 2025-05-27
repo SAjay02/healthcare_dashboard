@@ -1,7 +1,7 @@
 import React from 'react'
 import "../../../styles/Activity/Activity.css"
 import {activityData} from "../../../data/ActivityData"
-export const Activity = (activityData) => {
+export const Activity = () => {
   return (
     <div className="activity_container">
        <div className='activity_top_contianer'>
