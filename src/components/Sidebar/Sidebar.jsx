@@ -21,7 +21,7 @@ const Sidebar = () => {
         <div>
           <h4 className="general">General</h4>
           <h5 className="project" style={{ color: "#051a78" }}>
-            <span className="project_icon"><FontAwesomeIcon icon={faDashboard} /></span>Dashboard
+            <span style={{ color: "#051a78" }} className="project_icon"><FontAwesomeIcon icon={faDashboard} /></span>Dashboard
           </h5>
           <h5 className="project"><span className="project_icon"><FontAwesomeIcon icon={faHistory} /></span>History</h5>
           <h5 className="project"><span className="project_icon"><FontAwesomeIcon icon={faCalendar} /></span>Calendar</h5>

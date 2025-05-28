@@ -15,7 +15,7 @@
 }
 
 .general {
-  color: grey;
+  color: rgb(193, 193, 193);
   font-size: x-small;
   /* margin-top: 15px; */
 }
@@ -27,15 +27,18 @@
   margin-top: 20px;
   /* font-size: 14px; */
   cursor: pointer;
+  color: gray;
 }
 
 .project_icon {
   margin-right: 15px;
+  color: gray;
 }
 
 .setting {
   margin-left: -40px;
   font-size: 14px;
+  color: gray;
 }
 
 

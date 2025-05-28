@@ -25,10 +25,25 @@ const Calendar = () => {
                         <div className='day_table_container'>                        
                             <h6 style={{color:"gray"}}>{item.day}</h6>
                             <h4 style={{color:"#051a78"}} className='date_container'>{item.date}</h4>
-                            <h6 style={{color:"gray"}} className='time_container'>{item.time1}</h6>
+                            {
+                                item.booked==="avg" && item.date==="30"||item.date==="31" ?
+                                (
+                                    <h6 style={{color:"white",backgroundColor:"#7c77b8",display:"flex",justifyContent:"center",alignItems:"center",borderRadius:"4px"}} className='time_container'>{item.time1}</h6>
+                                )
+                                :
+                                <h6 style={{color:"gray"}} className='time_container'>{item.time1}</h6>
+                            }
                             {
                                 item.booked && item.booked==="on" ? 
-                                <h6 style={{color:"white",backgroundColor:"#271db5",display:"flex",justifyContent:"center",alignItems:"center",borderRadius:"4px"}} className='time_container'>{item.time2}</h6> :
+                                (
+                                    <h6 style={{color:"white",backgroundColor:"#271db5",display:"flex",justifyContent:"center",alignItems:"center",borderRadius:"4px"}} className='time_container'>{item.time2}</h6>
+                                )
+                                 :
+                                item.booked && item.booked==="avg"&& item.date==="28" ? 
+                                (
+                                    <h6 style={{color:"white",backgroundColor:"#7c77b8",display:"flex",justifyContent:"center",alignItems:"center",borderRadius:"4px"}} className='time_container'>{item.time2}</h6>
+                                )
+                                :
                                 <h6 className='time_container'>{item.time2}</h6>
 
                             }

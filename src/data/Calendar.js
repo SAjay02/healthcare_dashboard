@@ -29,7 +29,7 @@ const calendarData = [
         time1:"10.00",
         time2:"11.00",
         time3:"----",
-        booked:"off"
+        booked:"avg"
     },
     {
         day:"Fri",
@@ -45,7 +45,7 @@ const calendarData = [
         time1:"12.00",
         time2:"14.00",
         time3:"15.00",
-        booked:"off"
+        booked:"avg"
     },
     {
         day:"Sun",
@@ -53,7 +53,7 @@ const calendarData = [
         time1:"9.00",
         time2:"10.00",
         time3:"11.00",
-        booked:"off"
+        booked:"avg"
     },
 ]
 

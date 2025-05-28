@@ -12,7 +12,7 @@ const healthData = [
         part:faTooth,
         name:"Teeth",
         Date:"Date: 26 okt 2021",
-        status:"blue"
+        status:"lightgreen"
     },
     {
         part:faBone,
