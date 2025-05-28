@@ -192,6 +192,38 @@
     width: auto;
 }
 
+.heart_container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 100px;
+    background-color: #390ead;
+    color: white;
+    position: absolute;
+    margin-top: -190px;
+    margin-left: 140px;
+    border-radius: 8px;
+    font-size: 13px;
+}
+
+.leg_container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 100px;
+    background-color: #2ed1de;
+    position: absolute;
+    color: #390ead;
+    border-radius: 8px;
+    font-size: 13px;
+    margin-top: -90px;
+    margin-left: -5px;
+}
+
 .health_container
 {
     /* height: 200px; */
